@@ -1,0 +1,42 @@
+.footer {
+  /* display: flex; */
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.footer #contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.footer #contact-title {
+  font: 1em;
+  color: white;
+  margin-right: 1rem;
+}
+
+.footer #contact-container ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0 2rem 0 0.5rem;
+}
+
+.footer #contact-container ul li {
+  width: 3rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.footer #credits {
+  display: block;
+}
+.footer #credits > p {
+  color: white;
+  font-size: 0.7rem;
+  padding: 0 1rem 0 0;
+  float: right;
+}

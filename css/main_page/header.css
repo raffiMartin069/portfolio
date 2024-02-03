@@ -1,0 +1,107 @@
+/* Specify background color */
+.header-container {
+  padding: 2rem 0.5rem 2rem 0.5rem;
+}
+
+.heading-border {
+  width: 100%;
+  display: block;
+}
+@media screen and (orientation: portrait) {
+  .heading-border {
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .heading-border {
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+.heading-title {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 1rem 1.5rem auto;
+  justify-content: left;
+}
+.font {
+  font-size: 1rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.image-course-expander {
+  /* parent container for header, ensures that main image and description always comes together */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem 2.5rem 3rem;
+}
+.main-img {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+}
+
+.basic-introduction-container {
+  height: 6.5rem;
+  display: flex;
+  color: aliceblue;
+  align-items: center; /* This will vertically center the content */
+  justify-content: center; /* This will horizontally center the content */
+  padding: 2rem 1rem 2.5rem 1rem;
+}
+.basic-introduction-container > #course-description {
+  font-size: 1rem;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+#course-highlight-text {
+  flex-grow: 1; /* This will make the span take up as much space as possible */
+  text-align: center; /* This will center the text within the span */
+  color: #eed6d3;
+}
+
+.basic-service-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+.basic-service-contact div {
+  margin: 0.9rem;
+  display: inline;
+  color: aliceblue;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.basic-service-contact-info {
+  display: flex;
+  justify-content: center;
+  margin-left: -2rem;
+}
+.basic-service-contact-info div {
+  display: inline;
+  color: aliceblue;
+  margin: 0.9rem;
+  font-size: 0.6em;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.info-container {
+  padding: 2rem 0 0 0;
+}

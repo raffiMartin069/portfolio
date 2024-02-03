@@ -1,0 +1,42 @@
+.article {
+  display: flex;
+}
+
+.info-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+}
+.info-container > p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+}
+
+.article-myImage {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem 0 1rem 0;
+}
+
+.expertise-title {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  padding: 0 0 0 0.5rem;
+}
+.expertise-title > h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+}
+
+.prog-lang-container {
+  display: flex;
+  justify-items: left;
+  text-align: left;
+}

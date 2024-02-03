@@ -1,0 +1,38 @@
+# ignore binaries
+*.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.tmp
+*.out
+*.pid
+*.bak
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.nar
+
+
+# ignore vscode related files
+*.code-workspace
+*.vscode
+
+# ignore directories
+/js/
+/vendor/
+/images/

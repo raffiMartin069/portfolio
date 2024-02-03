@@ -1,0 +1,260 @@
+/* ============================
+    Media Queries
+===============================*/
+@media only screen and (max-width:300px) {
+  html {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 304px) {
+  .image-course-expander {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-img-container,
+  .basic-introduction-container {
+    order: 1;
+  }
+
+  .main-img-container {
+    padding: 2rem 1rem 0 3rem;
+  }
+
+  .basic-introduction-container {
+    order: 2;
+    padding: 2rem 1rem 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .basic-service-contact,
+  .basic-service-contact-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .main-img-container {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-border {
+    height: 75vh;
+    /* Adjust this value as needed */
+  }
+
+  .main-img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #page-title {
+    font-size: 1.5rem;
+  }
+
+  .basic-introduction-container > #course-description {
+    font-size: 2rem;
+    padding-top: 10rem;
+  }
+
+  .basic-service-contact div {
+    font-size: 2em;
+    padding: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .basic-service-contact-info div {
+    font-size: 1em;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .info-container > p {
+    font-size: 1.2rem;
+  }
+
+  .info-container {
+    margin: auto;
+    align-items: center;
+    /* Specify padding, do not put auto. Use 0 instead. */
+    padding: 2rem 0 2rem 0;
+    justify-content: center;
+  }
+
+  .heading-title h1 {
+    padding-left: 1.5rem;
+  }
+
+  .main-color {
+    height: 150vh;
+  }
+
+  .header-content-wrapper {
+    padding: 10rem 0 10rem 0;
+  }
+
+  .expertise-title > h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .expertise-content ul li img {
+    width: 5rem !important;
+    /* or any larger value */
+    height: auto !important;
+    margin-right: 2rem;
+  }
+
+  .expertise-content ul {
+    justify-content: flex-start !important;
+    padding: 0 2rem 0 2rem !important;
+  }
+
+  .prog-lang-container > #languages-text {
+    font-size: 5.5rem;
+  }
+
+  .expertise-wrapper .prog-title-container #prog-lang-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .expertise-wrapper {
+    height: 150vh !important;
+  }
+  .holder {
+    width: 100%; /* or any value that suits your design */
+    max-width: 1200px; /* or any value that suits your design */
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .info-container {
+    width: 50%;
+  }
+
+  .article {
+    flex-direction: row;
+  }
+
+  .info-container {
+    padding: 0;
+  }
+
+  .info-container > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .article-myImage {
+    padding: 1rem 5rem 0 0;
+  }
+
+  .prog-lang-container {
+    padding: 0 0 0 10rem;
+  }
+
+  .expertise-title {
+    padding: 0 0 0 5rem;
+    
+  }
+
+  .expertise-content ul li img {
+    width: 4rem !important;
+    height: auto !important;
+  }
+
+  .expertise-wrapper {
+    width: 50%;
+    margin: auto;
+  }
+  .holder {
+    width: 100%; /* or any value that suits your design */
+    max-width: 1200px; /* or any value that suits your design */
+    margin: auto;
+    overflow: hidden;
+  }
+  .expertise-holder {
+    width: 50%; /* or any value that suits your design */
+    max-width: 1200px; /* or any value that suits your design */
+    margin:auto;
+    padding-right: 10rem;
+    overflow: hidden;
+  }
+  .article-wrapper {
+    width: 100%; /* or any value that suits your design */
+    max-width: 2000px; /* or any value that suits your design */
+    margin:auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #page-title {
+    font-size: 2rem;
+  }
+
+  .info-container {
+    padding: 5rem 0 0 25rem;
+  }
+
+  .info-container > p {
+    text-align: left;
+    justify-content: center;
+  }
+
+  .article-myImage {
+    padding: 5rem 25rem 0 0;
+  }
+
+  .prog-lang-container {
+    padding: 0 0 0 30rem;
+  }
+
+  .expertise-title {
+    padding: 10rem 0 0 25rem;
+  }
+
+  .expertise-content ul li img {
+    width: 5rem !important;
+    /* or any larger value */
+    height: auto !important;
+  }
+
+  .expertise-wrapper {
+    width: 50%;
+    margin: auto;
+    padding-left: 5rem;
+  }
+  .holder {
+    width: 100%; /* or any value that suits your design */
+    max-width: 1200px; /* or any value that suits your design */
+    margin: auto;
+    overflow: hidden;
+  }
+  .expertise-holder {
+    width: 100%; /* or any value that suits your design */
+    max-width: 1200px; /* or any value that suits your design */
+    margin:auto;
+    padding-right: 13rem;
+    overflow: hidden;
+  }
+
+  .article-wrapper {
+    width: 100%; /* or any value that suits your design */
+    max-width: 2000px; /* or any value that suits your design */
+    margin:auto;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,36 @@
+.prog-title-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+}
+.prog-title-container #prog-lang-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+/* This allows us to align all items horizontally without the use of floating display.
+    It also allows us to space the items evenly across the container.
+
+    This is used in the Expertise section where we display the programming languages and other stuffs evenly across the container.
+*/
+.expertise-content ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0 2rem 0 0.5rem;
+}
+
+.expertise-content ul li img {
+  display: flex;
+  padding-left: 0.1rem;
+  width: 3rem;
+  height: auto;
+}
+
+.expertise-wrapper {
+  padding-left: 0.5rem;
+  height: 120vh;
+  justify-content: center;
+}
