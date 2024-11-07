@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-  Hi I am Raf! As part of my Web Development Journey I have created a simple Portfolio.
+  Hi I am Raf! As part of my Web Development Journey I have created a simple Portfolio using **HTML and CSS only** .
 I believe that this is my stepping stone towards the journey of being a Developer.
 I tried to make it simple yet responsive. Lapses might be found to this website however,
 I would do further refactorings and updates to mantain and beutify this. 
